@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
         "foto_12.JPG",
         "margaritas_2.JPG",
         "foto_2.jpg",
-        "img/calavera_cuarzo rosa.jpg",
+        "calavera_cuarzo rosa.jpg",
         "isadora_2.JPG",
         "foto_13.JPG",
         "tulipanes.jpg",
