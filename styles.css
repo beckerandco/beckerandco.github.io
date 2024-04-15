@@ -1,0 +1,83 @@
+/* RESET */
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+/* UTILITY COMPONENTS */
+:root{
+    font-size:62.5%;
+
+/***** CUSTOM PROPERTIES *****/
+    /* main color */
+    --primary-color: white;
+    /* secondary color */
+    --secondary-color: pink;
+    /* secondary color modified */
+    --secondary-color-m: red;
+    /* tertiary color */
+    --tertiary-color: blue;
+    /* tertiary color modified */
+    --tertiary-color-m: orange;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+
+}
+main{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+     #foto_portada{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: relative;
+
+     }
+     h1{
+        font-size: calc(2.5rem + 5vw);
+        /* color: #FF79B9; */
+        color:white;
+        position: absolute;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+
+       /*  transition:transform 0.5s ;
+        animation: animacion 5S forwards; */
+     }  
+ 
+
+     @keyframes animacion{/* TITULO */
+        0%{
+          transform: scale(0.5);
+
+        }
+        100%{
+          transform: scale(1.5);
+        }
+
+       }
+       a{
+        font-size: calc(2.5rem + 6vw);
+        /* color: #FF79B9; */
+        color:white;
+        position: absolute;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        padding-top: 15vh;
+        animation: animacion 10S forwards;
+        text-decoration: none;
+     } 
+     a:hover{
+        color:rgb(240, 177, 230);
+     }
