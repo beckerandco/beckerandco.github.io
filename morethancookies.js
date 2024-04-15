@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function() {
         "foto_9.jpg",
         "foto_10.jpg",
     ];
-    let tiempoIntervalo = 100;
+    let tiempoIntervalo = 500;
 
     let indiceImagenActual = 0;
     let fotoPortada = document.getElementById("foto_portada");
