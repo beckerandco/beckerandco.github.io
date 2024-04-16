@@ -5,10 +5,12 @@ document.addEventListener("DOMContentLoaded", function() {
         "tulipanes_2.jpg",
         "broche.jpg",
         "menta.jpg",
+        "flores_1.jpg",
         "pieza_unica.JPG",
         "calder.JPG",
          "cono_jade_largo.jpg",
         "pieza_unica_amatista.jpg",
+        "flores_2.jpg"
         "pieza_unica_escarabajo.JPG",
         "foto_12.JPG",
         "margaritas_2.JPG",
@@ -22,12 +24,14 @@ document.addEventListener("DOMContentLoaded", function() {
         "pieza_unica_2.JPG",
         "isadora_3.JPG",
         "foto_14.JPG",
+        "flores_3.jpg"
         "foto_4.jpg",
         "foto_5.jpg",
         "broche_margarita.jpg",
         "foto_6.jpg",
         "foto_7.jpg",
         "pendientes_conchas.JPG",
+         "flores_4.jpg"
         "isadora_4.JPG",
         "foto_8.jpg",
         "pendientes_palmera.JPG",
