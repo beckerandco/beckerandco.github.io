@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function() {
         "isadora_4.JPG",
         "foto_8.jpg",
         "pendientes_palmera.JPG",
-        "negro.jpg",
+        "negro.png",
         "manos.JPG",
         "foto_9.jpg",
         "foto_10.jpg",
