@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
         "flores_1.jpg",
         "pieza_unica.JPG",
         "calder.JPG",
-         "cono_jade_largo.jpg",
+        "cono_jade_largo.jpg",
         "pieza_unica_amatista.jpg",
         "flores_2.jpg",
         "pieza_unica_escarabajo.JPG",
