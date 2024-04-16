@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function() {
         "negro.png",
         "manos.JPG",
         "foto_9.jpg",
-        "foto_10.jpg"
+        "foto_10.jpg",
     ];
     let tiempoIntervalo = 500;
 
