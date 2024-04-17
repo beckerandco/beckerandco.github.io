@@ -3,6 +3,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     let imagenes = [
         "tulipanes_2.jpg",
+        "cono.JPG",
         "broche.jpg",
         "menta.jpg",
         "flores_1.jpg",
