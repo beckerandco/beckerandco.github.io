@@ -10,6 +10,14 @@
 /* UTILITY COMPONENTS */
 :root{
     font-size:62.5%;
+
+/***** CUSTOM PROPERTIES *****/
+    /* main color */
+    --primary-color: white;
+    /* secondary color */
+    --secondary-color: rgb(240, 177, 230);
+    /* tipo */
+    font-family: Helvetica, sans-serif;
 }
 
 body{
@@ -22,6 +30,7 @@ main{
     height: 100%;
 
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -42,69 +51,66 @@ main{
      }
      h1{
         font-size: calc(2.5rem + 5vw);
-        color:white;
-        font-family: Arial, Helvetica, sans-serif;
+        color: var(--primary-color);
         font-weight: 100;
 
-       /*  transition:transform 0.5s ;
-        animation: animacion 5S forwards; */
      }  
  
-
-     @keyframes animacion{/* TITULO */
-        0%{
-          transform: scale(0.5);
-
-        }
-        100%{
-          transform: scale(1.5);
-        }
-
-       }
-    a{
+     a{
         font-size: calc(2rem + 6vw);
-        color:white;
-        font-family: Arial, Helvetica, sans-serif;
+        color: var(--primary-color);
         font-weight: 700;
+
         animation: animacion 10S forwards;
         text-decoration: none;
      } 
-         a:hover{
-             color:rgb(240, 177, 230);
+         a:hover,
+         a:active{
+             color:var(--secondary-color);
 
             }
-     #contact{
+            @keyframes animacion{/* TITULO */
+                0%{
+                  transform: scale(0.5);
+        
+                }
+                100%{
+                  transform: scale(1.5);
+                }
+        
+               }
+     a#contact{
         font-size: 1.6rem;
-        color:white;
-        font-family: Arial, Helvetica, sans-serif;
+        color: var(--primary-color);
         font-weight: 700;
         animation: none;
         text-decoration:underline;
+        margin: 20px;
 
      } 
-        #contact:hover{
-           color:rgb(240, 177, 230);
+        a#contact:hover{
+           color:var(--secondary-color);
+
         }
 .social_media{
-  /*   position: absolute; */
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-
     width: 100%;
     height: 100px;
 }
  .social_media svg{
-    margin-top:45vh;
-    width: 20px;
+    height: 20px;
     padding: 12px;
-    height: auto;
+    width: auto;
 }
    #icono{
     animation: none;
    }
    .social_media svg:hover{
-    width: 25px;
+    height: 25px;
 
    }
+
+   
